@@ -4,7 +4,7 @@ class CreateAirplanes < ActiveRecord::Migration
       t.integer :plane_model
       t.integer :plane_id
       t.integer :row
-      t.text :column
+      t.integer :column
       t.timestamps null: false
     end
   end
